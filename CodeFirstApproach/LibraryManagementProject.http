@@ -1,0 +1,6 @@
+@LibraryManagementProject_HostAddress = http://localhost:5172
+
+GET {{LibraryManagementProject_HostAddress}}/
+Accept: application/json
+
+###
