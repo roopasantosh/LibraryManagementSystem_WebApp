@@ -186,7 +186,7 @@ public class LibraryService
                     CreatedBy = user.Name,
                     UpdatedBy = user.Name,
                     Status = "Active",
-                    UserRole = user.UserRole
+                    UserRole = "User",
                 };
 
                 _context.Users.Add(userAccount);
